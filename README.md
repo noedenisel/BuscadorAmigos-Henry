@@ -1,15 +1,6 @@
-# Ejercicio AJAX
+# Ejercicio AJAX - Bootcamp Soy Henry
 
-#### Pre-requisitos:
-Antes de desarollar nuestro codigo de front-end necesitaremos un servidor al que pedirle los datos de nuestra app usando AJAX. Veremos como escribir estos servidores mas adelante cuando estudiemos backend y NodeJs; mientras tanto utilizaremos un servidor muy simple que tiene las capacidades que necesitamos para el ejercicio.
-
-> Para poder correr el servidor necesitaras tener NodeJs instalado. Puedes descargarlo e instalarlo entrando a la [pagina oficial](https://nodejs.org/en/download/)
-
-Una vez que hayas instalado NodeJs, ve al directorio `04-ajax/homework` desde la terminal y corre estos dos comandos:
-```shell
-npm install
-npm start # Este ultimo comando no nos retornara la terminal, sino que quedara ejecutando. Necesitamos dejarlo abierto mientras trabajamos
-```
+deploy: https://noedenisel.github.io/BuscadorAmigos-Henry/
 
 #### Tareas:
 Escribe codigo en los archivos `index.html` y `index.js` para que la pagina tenga las siguientes funcionalidades:
@@ -21,6 +12,17 @@ Escribe codigo en los archivos `index.html` y `index.js` para que la pagina teng
 
 - Un input que reciba el id de un amigo y un boton "borrar". Al hacer click en el boton, borraremos el amigo del servidor haciendo un `DELETE` a nuestro servidor, concatenando el id del usuario que queremos borrar. Por ej: `http://localhost:5000/amigos/2` le pediria al servidor el amigo con `id = 2`
 
+
+#### Pre-requisitos:
+Antes de desarollar nuestro codigo de front-end necesitaremos un servidor al que pedirle los datos de nuestra app usando AJAX. Veremos como escribir estos servidores mas adelante cuando estudiemos backend y NodeJs; mientras tanto utilizaremos un servidor muy simple que tiene las capacidades que necesitamos para el ejercicio.
+
+> Para poder correr el servidor necesitaras tener NodeJs instalado. Puedes descargarlo e instalarlo entrando a la [pagina oficial](https://nodejs.org/en/download/)
+
+Una vez que hayas instalado NodeJs, ve al directorio `04-ajax/homework` desde la terminal y corre estos dos comandos:
+```shell
+npm install
+npm start # Este ultimo comando no nos retornara la terminal, sino que quedara ejecutando. Necesitamos dejarlo abierto mientras trabajamos
+```
 
 # Recordatorio
 - Para manipular un elemento de html en con jquery debes usar $('#id-elemento') agregandole como arguemnto el id del elemento que quieres manipular
