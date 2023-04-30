@@ -29,4 +29,4 @@ Escribe codigo en los archivos `index.html` y `index.js` para que la pagina teng
 
 ![img](./img/ejemplo-1.gif)
 
-# BuscadorAmigos-Henry
+
